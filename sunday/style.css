@@ -1,0 +1,133 @@
+/*body {
+	background: linear-gradient(-45deg, #52b2ee, #0209dc, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}*/
+#scroll-container {
+  border: 5px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  overflow: hidden;
+  height: 10%;
+  width:60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* for Firefox */
+@-moz-keyframes my-animation {
+  from { -moz-transform: translateX(-100%); }
+  to { -moz-transform: translateX(100%); }
+}
+
+/* for Chrome */
+@-webkit-keyframes my-animation {
+  from { -webkit-transform: translateX(-100%); }
+  to { -webkit-transform: translateX(100%); }
+}
+
+@keyframes my-animation {
+  from {
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+  to {
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+}
+
+.huf{
+  margin-left: 1%;
+  margin-top: 2%;
+}
+
+.bg-video {
+  width: 50vw;
+  height: 50vh;
+  top: 0;
+  left: 100;
+}
+
+.hover-menu {
+  position: relative;
+  overflow: hidden;
+  margin: 8px;
+  min-width: 340px;
+  max-width: 20px;
+  max-height: 490px;
+  width: 100%;
+  background: #ffffff;
+  text-align: center;
+  box-sizing: border-box;
+  display: inline-block;
+  font-family: 'Play', sans-serif;
+}
+
+.hover-menu * {
+  box-sizing: border-box;
+  font-family: 'Play', sans-serif;
+}
+
+.hover-menu img {
+  position: relative;
+  max-width: 100%;
+  top: 0;
+  right: 0;
+  opacity: 1;
+  transition: 0.3s ease-in-out;
+}
+
+.hover-menu div {
+  position: absolute;
+  top: 0;
+  left: -120px;
+  width: 120px;
+  height: 100%;
+  padding: 8px 4px;
+  /*background: #ffffff;*/
+  transition: 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #000000;
+}
+
+.hover-menu div a {
+  display: inline-block;
+  line-height: 2;
+  color: #fff;
+  text-decoration: none;
+  opacity: 0.8;
+  padding: 5px 15px;
+  position: relative;
+  transition: 0.3s ease-in-out;
+  color: #000000;
+}
+
+.hover-menu div a:hover {
+  text-decoration: underline;
+}
+
+.hover-menu:hover img {
+  opacity: 0.5;
+  right: -10px;
+}
+
+.hover-menu:hover div {
+  left: 0;
+  opacity: 1;
+}
