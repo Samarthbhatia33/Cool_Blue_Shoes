@@ -1,10 +1,32 @@
+/*body {
+	background: linear-gradient(-45deg, #52b2ee, #0209dc, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}*/
+
+.huf{
+  margin-left: 1%;
+}
+
 .bg-video {
   width: 50vw;
   height: 50vh;
   top: 0;
   left: 100;
 }
-
 
 .hover-menu {
   position: relative;
@@ -42,7 +64,7 @@
   width: 120px;
   height: 100%;
   padding: 8px 4px;
-  background: #ffffff;
+  /*background: #ffffff;*/
   transition: 0.3s ease-in-out;
   display: flex;
   flex-direction: column;
