@@ -17,7 +17,7 @@
 	}
 }*/
 #scroll-container {
-  border: 5px solid rgb(0, 0, 0);
+  border: 10px solid rgb(255, 51, 56);
   border-radius: 5px;
   overflow: hidden;
   height: 10%;
@@ -25,30 +25,22 @@
   margin-left: auto;
   margin-right: auto;
 }
-/* for Firefox */
-@-moz-keyframes my-animation {
-  from { -moz-transform: translateX(-100%); }
-  to { -moz-transform: translateX(100%); }
+
+#scroll-text {
+  text-align: right;
+  font-family: 'Play', sans-serif;
+  font-size: 60px;
+  color: rgb(148, 219, 252);
+  /* animation properties */
+  -moz-transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+  
+  -moz-animation: my-animation 15s linear infinite;
+  -webkit-animation: my-animation 15s linear infinite;
+  animation: my-animation 15s linear infinite;
 }
 
-/* for Chrome */
-@-webkit-keyframes my-animation {
-  from { -webkit-transform: translateX(-100%); }
-  to { -webkit-transform: translateX(100%); }
-}
-
-@keyframes my-animation {
-  from {
-    -moz-transform: translateX(-100%);
-    -webkit-transform: translateX(-100%);
-    transform: translateX(-100%);
-  }
-  to {
-    -moz-transform: translateX(100%);
-    -webkit-transform: translateX(100%);
-    transform: translateX(100%);
-  }
-}
 
 .huf{
   margin-left: 1%;
