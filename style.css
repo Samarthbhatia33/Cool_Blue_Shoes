@@ -1,3 +1,6 @@
+*{
+  background-color: blue;
+}
 .favs-text{
   display:inline-block;
   margin-left: 10px;
