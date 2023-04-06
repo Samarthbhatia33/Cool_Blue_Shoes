@@ -1,0 +1,579 @@
+.bg-video {
+  overflow: hidden;
+  position: absolute;
+}
+
+#scroll-container {
+  border: 5px solid rgb(0, 23, 57);
+  border-radius: 5px;
+  height: 50%;
+  overflow: hidden;
+  width: 80%;
+  position: absolute;
+  right: 10%;
+  top:100%;
+  background-color: rgb(255, 255, 255);
+}
+
+#scroll-text {
+  height: 100%;
+  text-align: left;
+  font-family: 'Play', sans-serif;
+  color: rgb(0, 23, 57);
+  font-size: 30px;
+  /* animation properties */
+  -moz-transform: translateY(100%);
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
+  
+  -moz-animation: my-animation 5s linear infinite;
+  -webkit-animation: my-animation 5s linear infinite;
+  animation: my-animation 5s linear infinite;
+  
+}
+
+/* for Chrome */
+@-webkit-keyframes my-animation {
+  from { -webkit-transform: translateY(100%); }
+  to { -webkit-transform: translateY(-100%); }
+}
+
+@keyframes my-animation {
+  from {
+    -moz-transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+  }
+  to {
+    -moz-transform: translateY(-100%);
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+}
+#scroll-container2 {
+  border: 5px solid rgb(0, 23, 57);
+  border-radius: 5px;
+  height: 50%;
+  overflow: hidden;
+  width: 80%;
+  position: absolute;
+  right: 10%;
+  top:238%;
+  background-color: rgb(255, 255, 255);
+}
+
+#scroll-text2 {
+  height: 100%;
+  text-align: center;
+  font-family: 'Play', sans-serif;
+  text-align: left;
+  font-size: 30px;
+  /* animation properties */
+  -moz-transform: translateY(100%);
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
+  
+  -moz-animation: my-animation 5s linear infinite;
+  -webkit-animation: my-animation 5s linear infinite;
+  animation: my-animation 5s linear infinite;
+  
+}
+
+/* for Chrome */
+@-webkit-keyframes my-animation {
+  from { -webkit-transform: translateY(100%); }
+  to { -webkit-transform: translateY(-100%); }
+}
+
+@keyframes my-animation {
+  from {
+    -moz-transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+  }
+  to {
+    -moz-transform: translateY(-100%);
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+}
+#scroll-container3 {
+  border: 5px solid black;
+  border-radius: 5px;
+  height: 50%;
+  overflow: hidden;
+  width: 80%;
+  position: absolute;
+  right: 10%;
+  top:370%;
+  background-color: rgb(255, 255, 255);
+}
+
+#scroll-text3 {
+  height: 100%;
+  text-align: center;
+  font-family: 'Play', sans-serif;
+  text-align: left;
+  font-size: 30px;
+  /* animation properties */
+  -moz-transform: translateY(100%);
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
+  
+  -moz-animation: my-animation 5s linear infinite;
+  -webkit-animation: my-animation 5s linear infinite;
+  animation: my-animation 5s linear infinite;
+  
+}
+#scroll-container4 {
+  border: 5px solid black;
+  border-radius: 5px;
+  height: 50%;
+  overflow: hidden;
+  width: 80%;
+  position: absolute;
+  right: 10%;
+  top:510%;
+  background-color: rgb(255, 255, 255);
+}
+
+#scroll-text4 {
+  height: 100%;
+  text-align: center;
+  font-family: 'Play', sans-serif;
+  text-align: left;
+  font-size: 30px;
+  /* animation properties */
+  -moz-transform: translateY(100%);
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
+  
+  -moz-animation: my-animation 5s linear infinite;
+  -webkit-animation: my-animation 5s linear infinite;
+  animation: my-animation 5s linear infinite;
+  
+}
+/* for Chrome */
+@-webkit-keyframes my-animation {
+  from { -webkit-transform: translateY(100%); }
+  to { -webkit-transform: translateY(-100%); }
+}
+
+@keyframes my-animation {
+  from {
+    -moz-transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+  }
+  to {
+    -moz-transform: translateY(-100%);
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+}
+#scroll-container5 {
+  border: 5px solid black;
+  border-radius: 5px;
+  height: 50%;
+  overflow: hidden;
+  width: 80%;
+  position: absolute;
+  right: 10%;
+  top:660%;
+  background-color: rgb(255, 255, 255);
+}
+
+#scroll-text5 {
+  height: 100%;
+  text-align: center;
+  font-family: 'Play', sans-serif;
+  text-align: left;
+  font-size: 30px;
+  /* animation properties */
+  -moz-transform: translateY(100%);
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
+  
+  -moz-animation: my-animation 5s linear infinite;
+  -webkit-animation: my-animation 5s linear infinite;
+  animation: my-animation 5s linear infinite;
+  
+}
+/* for Chrome */
+@-webkit-keyframes my-animation {
+  from { -webkit-transform: translateY(100%); }
+  to { -webkit-transform: translateY(-100%); }
+}
+
+@keyframes my-animation {
+  from {
+    -moz-transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+  }
+  to {
+    -moz-transform: translateY(-100%);
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+}
+/*.bg-video {
+  width: 50vw;
+  height: 50vh;
+  top: 0;
+  left: 300;
+  margin-left: 700px;
+}
+.banner{
+  font-size: 50px;
+  color: white;
+  background-color: rgb(150, 224, 255);
+  border-radius: 25px;
+  text-align: right;
+  padding-right: 100px;
+  padding-bottom: 400px;
+
+  font-weight: 900;
+  font-family: 'Playfair Display', serif;
+}*/
+.img-1{
+  height: auto;
+  max-width: 70%;
+  left:5%; 
+  position:absolute;
+  top:10%; 
+  text-decoration: none;
+  color: black;
+  text-decoration: none;
+}
+.img-1:visited{
+  transform: translateX(-100px);
+  transition-duration: 2s;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+/*
+.img-1:hover + div {
+  display: block;
+}
+div {
+  background-color: yellow;
+  top: 200%;
+}*/
+.img-2{
+  height: auto;
+  max-width: 60%;
+    left:37%; 
+    position:absolute;
+    top:25%;
+}
+.img-2:hover{
+  transform: translateX(-100px);
+  transition-duration: 2s;
+}
+.img-2:hover + div {
+  display: block;
+}
+.img-3{
+  height: auto;
+  max-width: 60%;
+    left:9%; 
+    position:absolute;
+    top:25%;
+}
+.img-3:hover{
+  transform: translateX(-100px);
+  transition-duration: 2s;
+}
+.img-5{
+  height: auto;
+  max-width: 45%;
+    left:30%; 
+    position:absolute;
+    top:43%; 
+}
+.img-5:hover{
+  transform: translateX(-100px);
+  transition-duration: 2s;
+}
+.img-4{
+  height: auto;
+  max-width: 35%;
+    left:50%; 
+    position:absolute;
+    top:54%; 
+}
+.img-4:hover{
+  transform: translateX(-100px);
+  transition-duration: 2s;
+}
+.img-6{
+  height: auto;
+  max-width: 30%;
+    left:35%; 
+    position:absolute;
+    top:62%; 
+}
+.img-6:hover{
+  transform: translateX(-100px);
+  transition-duration: 2s;
+}
+.img-99{
+  height: auto;
+  max-width: 35%;
+    left:22%; 
+    position:absolute;
+    top:55%;
+}
+.img-99:hover{
+  transform: translateX(-100px);
+  transition-duration: 2s;
+}
+
+
+.img-7 {
+  height: auto;
+  max-width: 70%;
+  left:5%; 
+  position: absolute;
+  top:140%; 
+}
+.img-8{
+  height: auto;
+  max-width: 60%;
+    left:37%; 
+    position:absolute;
+    top:155%; 
+}
+.img-8:hover{
+  transform: translateX(-100px);
+  transition-duration: 2s;
+}
+.img-9{
+  height: auto;
+  max-width: 45%;
+    left:29%;
+    position:absolute;
+    top:174%; 
+}
+.img-9:hover{
+  transform: translateX(-100px);
+  transition-duration: 2s;
+/*  opacity: .5; */
+}
+.img-10{
+  height: auto;
+  max-width: 50%;
+    left:6%;
+    position:absolute;
+    top:165%; 
+}
+.img-10:hover{
+  transform: translateX(200px);
+  transition-duration: 2s;
+}
+.img-11{
+  height: auto;
+  max-width: 40%;
+    left:50%; 
+    position:absolute;
+    top:184%; 
+}
+.img-11:hover{
+  transform: translateX(200px);
+  transition-duration: 2s;
+}
+.img-13{
+  height: auto;
+  max-width: 35%;
+    left:15%; 
+    position:absolute;
+    top:190%;
+}
+.img-13:hover{
+  transform: translateX(200px);
+  transition-duration: 2s;
+}
+.img-12{
+  height: auto;
+  max-width: 35%;
+    left:35%; 
+    position:absolute;
+    top:194%;
+}
+.img-12:hover{
+  transform: translateX(200px);
+  transition-duration: 2s;
+}
+
+.img-14{
+  height: auto;
+  max-width: 70%;
+  left:6%; 
+  position:absolute;
+  top:280%; 
+}
+.img-14:hover{
+  transform: translateX(-100px);
+  transition-duration: 2s;
+}
+.img-15{
+  height: auto;
+  max-width: 60%;
+    left:15%; 
+    position:absolute;
+    top:290%; 
+}
+.img-15:hover{
+  transform: translateX(-100px);
+  transition-duration: 2s;
+}
+.img-47{
+  height: auto;
+  max-width: 55%;
+    left:20%;
+    position:absolute;
+    top:298%; 
+}
+.img-47:hover{
+  transform: translateX(-100px);
+  transition-duration: 2s;
+/*  opacity: .5; */
+}
+.img-16{
+  height: auto;
+  max-width: 54%;
+    left:25%;
+    position:absolute;
+    top:300%; 
+}
+.img-16:hover{
+  transform: translateX(-100px);
+  transition-duration: 2s;
+}
+.img-17{
+  height: auto;
+  max-width: 45%;
+    left:37%; 
+    position:absolute;
+    top:310%; 
+}
+.img-18{
+  height: auto;
+  max-width: 39%;
+    left:47%; 
+    position:absolute;
+    top:318%; 
+}
+.img-19{
+  height: auto;
+  max-width: 30%;
+    left:60%; 
+    position:absolute;
+    top:328%; 
+}
+
+
+.img-20{
+  height: auto;
+  max-width: 60%;
+    left:34%; 
+    position:absolute;
+    top:410%; 
+}
+.img-21{
+  height: auto;
+  max-width: 55%;
+    left:28%; 
+    position:absolute;
+    top:425%; 
+}
+.img-22{
+  height: auto;
+  max-width: 50%;
+    left:25%; 
+    position:absolute;
+    top:435%; 
+}
+.img-23{
+  height: auto;
+  max-width: 45%;
+    left:20%; 
+    position:absolute;
+    top:445%; 
+}
+.img-24{
+  height: auto;
+  max-width: 35%;
+    left:15%; 
+    position:absolute;
+    top:460%; 
+}
+.img-25{
+  height: auto;
+  max-width: 30%;
+    left:15%; 
+    position:absolute;
+    top:470%; 
+}
+.img-26{
+  height: auto;
+  max-width: 30%;
+    left:5%; 
+    position:absolute;
+    top:472%; 
+}
+
+
+
+.img-27{
+  height: auto;
+  max-width: 60%;
+    left:34%; 
+    position:absolute;
+    top:550%; 
+}
+.img-28{
+  height: auto;
+  max-width: 55%;
+    left:16%; 
+    position:absolute;
+    top:560%; 
+}
+.img-29{
+  height: auto;
+  max-width: 50%;
+    left:38%; 
+    position:absolute;
+    top:578%; 
+}
+.img-30{
+  height: auto;
+  max-width: 50%;
+    left:10%; 
+    position:absolute;
+    top:585%; 
+}
+.img-31{
+  height: auto;
+  max-width: 45%;
+    left:30%; 
+    position:absolute;
+    top:600%; 
+}
+.img-32{
+  height: auto;
+  max-width: 35%;
+    left:10%; 
+    position:absolute;
+    top: 615%; 
+}
+.img-33{
+  height: auto;
+  max-width: 30%;
+    left:25%; 
+    position:absolute;
+    top:622%; 
+}
+

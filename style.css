@@ -1,97 +1,56 @@
-*{
-    background-color: rgb(187, 0, 0);
-}
-.pizza_title{
-  color: white;
-  font-family: 'Courier New', Courier, monospace;
-  text-shadow: 5px 5px 5px red, 5px 5px 5px red;
-  font-size: 40px;
-}
-.title-word {
-  animation: color-animation 4s linear infinite;
-  font-size: 200px;
-  letter-spacing: 50px;
-  text-align: center;
-  margin-left: 100px;
-  text-shadow: 15px 15px 15px rgb(108, 108, 108), 5px 5px 5px rgb(25, 25, 25);
-display: inline-block;
-padding: 0px;
-}
-
-.title-word-1 {
-  --color-1: #DF8453;
-  --color-2: #3D8DAE;
-  --color-3: #E4A9A8;
-}
-
-.title-word-2 {
-  --color-1: #DBAD4A;
-  --color-2: #ACCFCB;
-  --color-3: #17494D;
-}
-
-.title-word-3 {
-  --color-1: #ACCFCB;
-  --color-2: #E4A9A8;
-  --color-3: #ACCFCB;
-}
-
-.title-word-4 {
-  --color-1: #3D8DAE;
-  --color-2: #DF8453;
-  --color-3: #E4A9A8;
-}
-.title-word-5 {
-    --color-1: #3D8DAE;
-    --color-2: #DF8453;
-    --color-3: #E4A9A8;
-  }
-.favs-pic{
-    width: 10px;
-  height: 400px;
-  display:inline-block;
-  margin-left: 500px;
-  margin-top: 100px;
-  animation: rotation 8s infinite linear;
-}
-@keyframes rotation {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(359deg);
-    }
-  }
 .favs-text{
   display:inline-block;
   margin-left: 10px;
   margin-top: 100px;
-  font-family: 'Courier New', Courier, monospace;
-  color: white;
+  font-family: 'Play', sans-serif;
+  color: rgb(0, 0, 0);
   font-weight: 700;
+  font-size:500%;
+  text-align: center;
 }
-@keyframes color-animation {
-  0%    {color: var(--color-1)}
-  32%   {color: var(--color-1)}
-  33%   {color: var(--color-2)}
-  65%   {color: var(--color-2)}
-  66%   {color: var(--color-3)}
-  99%   {color: var(--color-3)}
-  100%  {color: var(--color-1)}
+
+#scroll-container {
+  border: 5px solid black;
+  border-radius: 5px;
+  overflow: hidden;
+  height: 10%;
 }
-@keyframes color {
-    0%   { background: rgb(255, 0, 0); }
-    20%   { background: rgb(253, 228, 36)}
-    30%  { background: #12b3cc; }
-    40%  {background: rgb(39, 102, 238); }
-    50%  { background: #12b3cc; }
-    60%  { background: rgb(253, 228, 36) }
-    80%  { background: #169fe4; }
-    100% { background: #0cc243; }
+
+#scroll-text {
+  text-align: right;
+  font-family: 'Play', sans-serif;
+  font-size: 60px;
+  /* animation properties */
+  -moz-transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+  
+  -moz-animation: my-animation 15s linear infinite;
+  -webkit-animation: my-animation 15s linear infinite;
+  animation: my-animation 15s linear infinite;
+}
+
+/* for Firefox */
+@-moz-keyframes my-animation {
+  from { -moz-transform: translateX(-100%); }
+  to { -moz-transform: translateX(100%); }
+}
+
+/* for Chrome */
+@-webkit-keyframes my-animation {
+  from { -webkit-transform: translateX(-100%); }
+  to { -webkit-transform: translateX(100%); }
+}
+
+@keyframes my-animation {
+  from {
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
   }
-.gross{
-    margin-left: 400px; 
-    font-family: 'Courier New', Courier, monospace;
-    color: rgb(120, 120, 120);
-   font-weight: 700;
+  to {
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
 }
