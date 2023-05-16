@@ -16,6 +16,13 @@
 		background-position: 0% 50%;
 	}
 }*/
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: #0051ff;
+  border-radius: 50%;
+  display: inline-block;
+}
 #scroll-container {
   border: 10px solid rgb(255, 51, 56);
   border-radius: 5px;
